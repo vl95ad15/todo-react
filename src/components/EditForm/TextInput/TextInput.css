@@ -1,0 +1,12 @@
+.form-row-left {
+  margin-bottom: 10px;
+}
+
+.form-row-left input[type="text"] {
+  background-color: #f9df6e;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+}
