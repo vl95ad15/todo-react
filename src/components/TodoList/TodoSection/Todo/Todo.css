@@ -1,0 +1,41 @@
+.item {
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  background-color: rgb(201, 201, 201);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.item > h3 {
+  font-weight: 400;
+}
+
+.info-block {
+  display: flex;
+}
+
+.status-panel {
+  flex-grow: 4;
+}
+
+.created-date-panel {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.done-date-panel {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.control-block {
+  text-align: right;
+  padding: 10px;
+}
+
+.empty-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
